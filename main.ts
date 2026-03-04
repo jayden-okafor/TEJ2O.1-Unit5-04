@@ -5,10 +5,9 @@
  * This program turns on the traffic light when the "A" button is clicked
 */
 
-// variables
+// variable
 let neopixelStrip: neopixel.Strip = null
 
-// cleanup
 basic.clearScreen()
 
 neopixelStrip = neopixel.create(DigitalPin.P16, 4, NeoPixelMode.RGB)
