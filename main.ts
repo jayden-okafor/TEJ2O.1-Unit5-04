@@ -25,14 +25,15 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Yes)
 
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Green))
+    neopixelStrip.show()
     basic.pause(2000)
 
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Yellow))
+    neopixelStrip.show()
     basic.pause(1000)
 
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
-    basic.pause(2000)
-
     neopixelStrip.show()
+    basic.pause(2000)
 
 })
