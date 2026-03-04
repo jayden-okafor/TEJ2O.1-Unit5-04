@@ -41,4 +41,5 @@ input.onButtonPressed(Button.A, function () {
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
 
+    basic.clearScreen()
 })
